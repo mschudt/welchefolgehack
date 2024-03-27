@@ -1,0 +1,3522 @@
+{
+  "segments": [
+    [
+      {
+        "id": 1,
+        "seek": 2426,
+        "start": 0.02,
+        "end": 2.22,
+        "text": " So, heute kann ich mal mit dem Musikzitat beginnen.",
+        "tokens": [
+          50364,
+          407,
+          11,
+          9801,
+          4028,
+          1893,
+          2806,
+          2194,
+          1371,
+          14156,
+          89,
+          14032,
+          40326,
+          13,
+          50484
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4159482827131776,
+        "compression_ratio": 1.4086956521739131,
+        "no_speech_prob": 0.019073486328125,
+        "words": [
+          {
+            "start": 0.02,
+            "end": 0.38,
+            "word": " So,",
+            "probability": 0.30029296875
+          },
+          {
+            "start": 0.54,
+            "end": 0.68,
+            "word": " heute",
+            "probability": 0.61083984375
+          },
+          {
+            "start": 0.68,
+            "end": 0.8,
+            "word": " kann",
+            "probability": 0.8984375
+          },
+          {
+            "start": 0.8,
+            "end": 0.9,
+            "word": " ich",
+            "probability": 0.806640625
+          },
+          {
+            "start": 0.9,
+            "end": 1.0,
+            "word": " mal",
+            "probability": 0.86669921875
+          },
+          {
+            "start": 1.0,
+            "end": 1.1,
+            "word": " mit",
+            "probability": 0.85302734375
+          },
+          {
+            "start": 1.1,
+            "end": 1.2,
+            "word": " dem",
+            "probability": 0.7548828125
+          },
+          {
+            "start": 1.2,
+            "end": 1.74,
+            "word": " Musikzitat",
+            "probability": 0.92431640625
+          },
+          {
+            "start": 1.74,
+            "end": 2.22,
+            "word": " beginnen.",
+            "probability": 0.80224609375
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "seek": 2426,
+        "start": 3.36,
+        "end": 17.9,
+        "text": " Das war Fred Again mit Delilah, das mich seit etwa drei Monaten als Ohrwurm begleitet und es geht einfach nicht aus dem Kopf.",
+        "tokens": [
+          50884,
+          2846,
+          1516,
+          10112,
+          3764,
+          2194,
+          5831,
+          45014,
+          11,
+          1482,
+          6031,
+          16452,
+          28369,
+          16809,
+          46193,
+          3907,
+          876,
+          81,
+          86,
+          26717,
+          4612,
+          306,
+          16341,
+          674,
+          785,
+          7095,
+          7281,
+          1979,
+          3437,
+          1371,
+          28231,
+          13,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4159482827131776,
+        "compression_ratio": 1.4086956521739131,
+        "no_speech_prob": 0.019073486328125,
+        "words": [
+          {
+            "start": 3.36,
+            "end": 10.62,
+            "word": " Das",
+            "probability": 0.6494140625
+          },
+          {
+            "start": 10.62,
+            "end": 12.1,
+            "word": " war",
+            "probability": 0.87158203125
+          },
+          {
+            "start": 12.1,
+            "end": 12.38,
+            "word": " Fred",
+            "probability": 0.74365234375
+          },
+          {
+            "start": 12.38,
+            "end": 12.66,
+            "word": " Again",
+            "probability": 0.43310546875
+          },
+          {
+            "start": 12.66,
+            "end": 12.84,
+            "word": " mit",
+            "probability": 0.87109375
+          },
+          {
+            "start": 12.84,
+            "end": 13.3,
+            "word": " Delilah,",
+            "probability": 0.861572265625
+          },
+          {
+            "start": 13.52,
+            "end": 13.64,
+            "word": " das",
+            "probability": 0.79296875
+          },
+          {
+            "start": 13.64,
+            "end": 13.84,
+            "word": " mich",
+            "probability": 0.7783203125
+          },
+          {
+            "start": 13.84,
+            "end": 14.04,
+            "word": " seit",
+            "probability": 0.94287109375
+          },
+          {
+            "start": 14.04,
+            "end": 14.3,
+            "word": " etwa",
+            "probability": 0.84326171875
+          },
+          {
+            "start": 14.3,
+            "end": 14.54,
+            "word": " drei",
+            "probability": 0.72265625
+          },
+          {
+            "start": 14.54,
+            "end": 14.84,
+            "word": " Monaten",
+            "probability": 0.9248046875
+          },
+          {
+            "start": 14.84,
+            "end": 15.06,
+            "word": " als",
+            "probability": 0.79736328125
+          },
+          {
+            "start": 15.06,
+            "end": 15.36,
+            "word": " Ohrwurm",
+            "probability": 0.8404541015625
+          },
+          {
+            "start": 15.36,
+            "end": 15.86,
+            "word": " begleitet",
+            "probability": 0.9444986979166666
+          },
+          {
+            "start": 15.86,
+            "end": 16.06,
+            "word": " und",
+            "probability": 0.55712890625
+          },
+          {
+            "start": 16.06,
+            "end": 16.26,
+            "word": " es",
+            "probability": 0.537109375
+          },
+          {
+            "start": 16.26,
+            "end": 16.48,
+            "word": " geht",
+            "probability": 0.91650390625
+          },
+          {
+            "start": 16.48,
+            "end": 17.22,
+            "word": " einfach",
+            "probability": 0.78662109375
+          },
+          {
+            "start": 17.22,
+            "end": 17.4,
+            "word": " nicht",
+            "probability": 0.76171875
+          },
+          {
+            "start": 17.4,
+            "end": 17.58,
+            "word": " aus",
+            "probability": 0.90869140625
+          },
+          {
+            "start": 17.58,
+            "end": 17.72,
+            "word": " dem",
+            "probability": 0.7099609375
+          },
+          {
+            "start": 17.72,
+            "end": 17.9,
+            "word": " Kopf.",
+            "probability": 0.83251953125
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "seek": 2426,
+        "start": 18.02,
+        "end": 24.26,
+        "text": " Ich wei\u00df nicht, wann ich das das letzte Mal hatte. Wahrscheinlich bei, ja, bei Mark Matlock's You Can Get It, w\u00fcrde ich jetzt einfach mal sagen.",
+        "tokens": [
+          51264,
+          3141,
+          13385,
+          1979,
+          11,
+          38064,
+          1893,
+          1482,
+          1482,
+          35236,
+          5746,
+          13299,
+          13,
+          36357,
+          25553,
+          4643,
+          11,
+          2784,
+          11,
+          4643,
+          3934,
+          6789,
+          4102,
+          311,
+          509,
+          1664,
+          3240,
+          467,
+          11,
+          11942,
+          1893,
+          4354,
+          7281,
+          2806,
+          8360,
+          13,
+          51594
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.4159482827131776,
+        "compression_ratio": 1.4086956521739131,
+        "no_speech_prob": 0.019073486328125,
+        "words": [
+          {
+            "start": 18.02,
+            "end": 18.08,
+            "word": " Ich",
+            "probability": 0.93505859375
+          },
+          {
+            "start": 18.08,
+            "end": 18.22,
+            "word": " wei\u00df",
+            "probability": 0.76123046875
+          },
+          {
+            "start": 18.22,
+            "end": 18.34,
+            "word": " nicht,",
+            "probability": 0.736328125
+          },
+          {
+            "start": 18.38,
+            "end": 18.44,
+            "word": " wann",
+            "probability": 0.8681640625
+          },
+          {
+            "start": 18.44,
+            "end": 18.54,
+            "word": " ich",
+            "probability": 0.7978515625
+          },
+          {
+            "start": 18.54,
+            "end": 18.7,
+            "word": " das",
+            "probability": 0.88037109375
+          },
+          {
+            "start": 18.7,
+            "end": 18.8,
+            "word": " das",
+            "probability": 0.78466796875
+          },
+          {
+            "start": 18.8,
+            "end": 18.94,
+            "word": " letzte",
+            "probability": 0.72021484375
+          },
+          {
+            "start": 18.94,
+            "end": 19.1,
+            "word": " Mal",
+            "probability": 0.80810546875
+          },
+          {
+            "start": 19.1,
+            "end": 19.24,
+            "word": " hatte.",
+            "probability": 0.75830078125
+          },
+          {
+            "start": 19.34,
+            "end": 19.56,
+            "word": " Wahrscheinlich",
+            "probability": 0.850830078125
+          },
+          {
+            "start": 19.56,
+            "end": 20.12,
+            "word": " bei,",
+            "probability": 0.8310546875
+          },
+          {
+            "start": 20.14,
+            "end": 21.2,
+            "word": " ja,",
+            "probability": 0.6640625
+          },
+          {
+            "start": 21.28,
+            "end": 21.46,
+            "word": " bei",
+            "probability": 0.8798828125
+          },
+          {
+            "start": 21.46,
+            "end": 21.86,
+            "word": " Mark",
+            "probability": 0.455078125
+          },
+          {
+            "start": 21.86,
+            "end": 22.58,
+            "word": " Matlock's",
+            "probability": 0.4622395833333333
+          },
+          {
+            "start": 22.58,
+            "end": 22.88,
+            "word": " You",
+            "probability": 0.17578125
+          },
+          {
+            "start": 22.88,
+            "end": 23.04,
+            "word": " Can",
+            "probability": 0.77197265625
+          },
+          {
+            "start": 23.04,
+            "end": 23.22,
+            "word": " Get",
+            "probability": 0.7177734375
+          },
+          {
+            "start": 23.22,
+            "end": 23.34,
+            "word": " It,",
+            "probability": 0.89208984375
+          },
+          {
+            "start": 23.4,
+            "end": 23.48,
+            "word": " w\u00fcrde",
+            "probability": 0.74658203125
+          },
+          {
+            "start": 23.48,
+            "end": 23.54,
+            "word": " ich",
+            "probability": 0.78955078125
+          },
+          {
+            "start": 23.54,
+            "end": 23.64,
+            "word": " jetzt",
+            "probability": 0.6611328125
+          },
+          {
+            "start": 23.64,
+            "end": 23.78,
+            "word": " einfach",
+            "probability": 0.791015625
+          },
+          {
+            "start": 23.78,
+            "end": 23.96,
+            "word": " mal",
+            "probability": 0.89697265625
+          },
+          {
+            "start": 23.96,
+            "end": 24.26,
+            "word": " sagen.",
+            "probability": 0.76318359375
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "seek": 4910,
+        "start": 24.5,
+        "end": 34.08,
+        "text": " Aber so ist es manchmal. So, erstmal w\u00fcnsche ich euch ein frohes neues Jahr. M\u00f6ge es euch mit Gesundheit und Gl\u00fcck reichlich beschenken und uns allen die zuletzt,",
+        "tokens": [
+          50384,
+          5992,
+          370,
+          1418,
+          785,
+          32092,
+          13,
+          407,
+          11,
+          38607,
+          30841,
+          12287,
+          1893,
+          10403,
+          1343,
+          9795,
+          8076,
+          43979,
+          11674,
+          13,
+          376,
+          973,
+          432,
+          785,
+          10403,
+          2194,
+          33057,
+          8480,
+          674,
+          33508,
+          319,
+          480,
+          1739,
+          4097,
+          2470,
+          2653,
+          674,
+          2693,
+          18440,
+          978,
+          43238,
+          3524,
+          11,
+          50864
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22764008363773083,
+        "compression_ratio": 1.5275862068965518,
+        "no_speech_prob": 0.1708984375,
+        "words": [
+          {
+            "start": 24.5,
+            "end": 24.98,
+            "word": " Aber",
+            "probability": 0.46142578125
+          },
+          {
+            "start": 24.98,
+            "end": 25.1,
+            "word": " so",
+            "probability": 0.8515625
+          },
+          {
+            "start": 25.1,
+            "end": 25.22,
+            "word": " ist",
+            "probability": 0.794921875
+          },
+          {
+            "start": 25.22,
+            "end": 25.3,
+            "word": " es",
+            "probability": 0.8681640625
+          },
+          {
+            "start": 25.3,
+            "end": 25.58,
+            "word": " manchmal.",
+            "probability": 0.79931640625
+          },
+          {
+            "start": 25.86,
+            "end": 25.98,
+            "word": " So,",
+            "probability": 0.49951171875
+          },
+          {
+            "start": 26.22,
+            "end": 26.52,
+            "word": " erstmal",
+            "probability": 0.66455078125
+          },
+          {
+            "start": 26.52,
+            "end": 26.7,
+            "word": " w\u00fcnsche",
+            "probability": 0.82666015625
+          },
+          {
+            "start": 26.7,
+            "end": 26.8,
+            "word": " ich",
+            "probability": 0.7939453125
+          },
+          {
+            "start": 26.8,
+            "end": 26.92,
+            "word": " euch",
+            "probability": 0.72021484375
+          },
+          {
+            "start": 26.92,
+            "end": 27.04,
+            "word": " ein",
+            "probability": 0.94189453125
+          },
+          {
+            "start": 27.04,
+            "end": 27.34,
+            "word": " frohes",
+            "probability": 0.90380859375
+          },
+          {
+            "start": 27.34,
+            "end": 27.62,
+            "word": " neues",
+            "probability": 0.73974609375
+          },
+          {
+            "start": 27.62,
+            "end": 27.92,
+            "word": " Jahr.",
+            "probability": 0.83642578125
+          },
+          {
+            "start": 28.88,
+            "end": 29.16,
+            "word": " M\u00f6ge",
+            "probability": 0.9737955729166666
+          },
+          {
+            "start": 29.16,
+            "end": 29.38,
+            "word": " es",
+            "probability": 0.9296875
+          },
+          {
+            "start": 29.38,
+            "end": 29.82,
+            "word": " euch",
+            "probability": 0.81201171875
+          },
+          {
+            "start": 29.82,
+            "end": 30.24,
+            "word": " mit",
+            "probability": 0.91943359375
+          },
+          {
+            "start": 30.24,
+            "end": 31.06,
+            "word": " Gesundheit",
+            "probability": 0.938720703125
+          },
+          {
+            "start": 31.06,
+            "end": 31.28,
+            "word": " und",
+            "probability": 0.88818359375
+          },
+          {
+            "start": 31.28,
+            "end": 31.54,
+            "word": " Gl\u00fcck",
+            "probability": 0.94384765625
+          },
+          {
+            "start": 31.54,
+            "end": 32.1,
+            "word": " reichlich",
+            "probability": 0.9296875
+          },
+          {
+            "start": 32.1,
+            "end": 32.66,
+            "word": " beschenken",
+            "probability": 0.8898111979166666
+          },
+          {
+            "start": 32.66,
+            "end": 32.86,
+            "word": " und",
+            "probability": 0.65087890625
+          },
+          {
+            "start": 32.86,
+            "end": 33.04,
+            "word": " uns",
+            "probability": 0.83984375
+          },
+          {
+            "start": 33.04,
+            "end": 33.32,
+            "word": " allen",
+            "probability": 0.78564453125
+          },
+          {
+            "start": 33.32,
+            "end": 33.54,
+            "word": " die",
+            "probability": 0.83251953125
+          },
+          {
+            "start": 33.54,
+            "end": 34.08,
+            "word": " zuletzt,",
+            "probability": 0.87255859375
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "seek": 4910,
+        "start": 34.34,
+        "end": 42.2,
+        "text": " ja, doch manchmal verlorengegangenen, elementaren Zutaten f\u00fcr ein ganz gutes Leben zur\u00fcckgeben, n\u00e4mlich Zuversicht und Optimismus.",
+        "tokens": [
+          50864,
+          2784,
+          11,
+          9243,
+          32092,
+          44884,
+          432,
+          47152,
+          268,
+          11,
+          4478,
+          4484,
+          1176,
+          325,
+          7186,
+          2959,
+          1343,
+          6312,
+          45859,
+          15399,
+          15089,
+          16702,
+          11,
+          21219,
+          23164,
+          840,
+          1405,
+          674,
+          35013,
+          25327,
+          13,
+          51264
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22764008363773083,
+        "compression_ratio": 1.5275862068965518,
+        "no_speech_prob": 0.1708984375,
+        "words": [
+          {
+            "start": 34.34,
+            "end": 35.06,
+            "word": " ja,",
+            "probability": 0.82080078125
+          },
+          {
+            "start": 35.14,
+            "end": 35.26,
+            "word": " doch",
+            "probability": 0.87353515625
+          },
+          {
+            "start": 35.26,
+            "end": 35.5,
+            "word": " manchmal",
+            "probability": 0.86083984375
+          },
+          {
+            "start": 35.5,
+            "end": 36.6,
+            "word": " verlorengegangenen,",
+            "probability": 0.71014404296875
+          },
+          {
+            "start": 36.66,
+            "end": 37.18,
+            "word": " elementaren",
+            "probability": 0.817626953125
+          },
+          {
+            "start": 37.18,
+            "end": 37.64,
+            "word": " Zutaten",
+            "probability": 0.95849609375
+          },
+          {
+            "start": 37.64,
+            "end": 37.88,
+            "word": " f\u00fcr",
+            "probability": 0.87451171875
+          },
+          {
+            "start": 37.88,
+            "end": 38.08,
+            "word": " ein",
+            "probability": 0.92578125
+          },
+          {
+            "start": 38.08,
+            "end": 38.34,
+            "word": " ganz",
+            "probability": 0.8212890625
+          },
+          {
+            "start": 38.34,
+            "end": 38.62,
+            "word": " gutes",
+            "probability": 0.86865234375
+          },
+          {
+            "start": 38.62,
+            "end": 38.9,
+            "word": " Leben",
+            "probability": 0.88525390625
+          },
+          {
+            "start": 38.9,
+            "end": 39.4,
+            "word": " zur\u00fcckgeben,",
+            "probability": 0.912109375
+          },
+          {
+            "start": 39.54,
+            "end": 39.76,
+            "word": " n\u00e4mlich",
+            "probability": 0.81591796875
+          },
+          {
+            "start": 39.76,
+            "end": 40.64,
+            "word": " Zuversicht",
+            "probability": 0.9244791666666666
+          },
+          {
+            "start": 40.64,
+            "end": 41.42,
+            "word": " und",
+            "probability": 0.88720703125
+          },
+          {
+            "start": 41.42,
+            "end": 42.2,
+            "word": " Optimismus.",
+            "probability": 0.92919921875
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "seek": 4910,
+        "start": 42.44,
+        "end": 49.1,
+        "text": " Aber das klappt schon. Das klappt schon in 2023, sag ich jetzt einfach mal. Lasst euch das von mir gesagt sein. Dann kann es ja nur gut werden.",
+        "tokens": [
+          51264,
+          5992,
+          1482,
+          33337,
+          42562,
+          4981,
+          13,
+          2846,
+          33337,
+          42562,
+          4981,
+          294,
+          44377,
+          11,
+          15274,
+          1893,
+          4354,
+          7281,
+          2806,
+          13,
+          10663,
+          372,
+          10403,
+          1482,
+          2957,
+          3149,
+          12260,
+          6195,
+          13,
+          7455,
+          4028,
+          785,
+          2784,
+          4343,
+          5228,
+          4604,
+          13,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22764008363773083,
+        "compression_ratio": 1.5275862068965518,
+        "no_speech_prob": 0.1708984375,
+        "words": [
+          {
+            "start": 42.44,
+            "end": 42.58,
+            "word": " Aber",
+            "probability": 0.8544921875
+          },
+          {
+            "start": 42.58,
+            "end": 42.82,
+            "word": " das",
+            "probability": 0.8427734375
+          },
+          {
+            "start": 42.82,
+            "end": 43.06,
+            "word": " klappt",
+            "probability": 0.8662109375
+          },
+          {
+            "start": 43.06,
+            "end": 43.3,
+            "word": " schon.",
+            "probability": 0.8642578125
+          },
+          {
+            "start": 43.36,
+            "end": 43.5,
+            "word": " Das",
+            "probability": 0.8837890625
+          },
+          {
+            "start": 43.5,
+            "end": 43.72,
+            "word": " klappt",
+            "probability": 0.837646484375
+          },
+          {
+            "start": 43.72,
+            "end": 43.88,
+            "word": " schon",
+            "probability": 0.86279296875
+          },
+          {
+            "start": 43.88,
+            "end": 44.0,
+            "word": " in",
+            "probability": 0.6650390625
+          },
+          {
+            "start": 44.0,
+            "end": 44.74,
+            "word": " 2023,",
+            "probability": 0.859375
+          },
+          {
+            "start": 45.02,
+            "end": 45.08,
+            "word": " sag",
+            "probability": 0.611328125
+          },
+          {
+            "start": 45.08,
+            "end": 45.18,
+            "word": " ich",
+            "probability": 0.7744140625
+          },
+          {
+            "start": 45.18,
+            "end": 45.3,
+            "word": " jetzt",
+            "probability": 0.681640625
+          },
+          {
+            "start": 45.3,
+            "end": 45.5,
+            "word": " einfach",
+            "probability": 0.80615234375
+          },
+          {
+            "start": 45.5,
+            "end": 45.7,
+            "word": " mal.",
+            "probability": 0.89794921875
+          },
+          {
+            "start": 45.8,
+            "end": 45.96,
+            "word": " Lasst",
+            "probability": 0.838623046875
+          },
+          {
+            "start": 45.96,
+            "end": 46.06,
+            "word": " euch",
+            "probability": 0.71826171875
+          },
+          {
+            "start": 46.06,
+            "end": 46.2,
+            "word": " das",
+            "probability": 0.88818359375
+          },
+          {
+            "start": 46.2,
+            "end": 46.66,
+            "word": " von",
+            "probability": 0.93701171875
+          },
+          {
+            "start": 46.66,
+            "end": 46.88,
+            "word": " mir",
+            "probability": 0.884765625
+          },
+          {
+            "start": 46.88,
+            "end": 47.26,
+            "word": " gesagt",
+            "probability": 0.92333984375
+          },
+          {
+            "start": 47.26,
+            "end": 47.56,
+            "word": " sein.",
+            "probability": 0.84033203125
+          },
+          {
+            "start": 47.98,
+            "end": 48.2,
+            "word": " Dann",
+            "probability": 0.796875
+          },
+          {
+            "start": 48.2,
+            "end": 48.34,
+            "word": " kann",
+            "probability": 0.8818359375
+          },
+          {
+            "start": 48.34,
+            "end": 48.42,
+            "word": " es",
+            "probability": 0.5439453125
+          },
+          {
+            "start": 48.42,
+            "end": 48.52,
+            "word": " ja",
+            "probability": 0.87890625
+          },
+          {
+            "start": 48.52,
+            "end": 48.62,
+            "word": " nur",
+            "probability": 0.79443359375
+          },
+          {
+            "start": 48.62,
+            "end": 48.82,
+            "word": " gut",
+            "probability": 0.8818359375
+          },
+          {
+            "start": 48.82,
+            "end": 49.1,
+            "word": " werden.",
+            "probability": 0.85107421875
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "seek": 7554,
+        "start": 49.52,
+        "end": 57.28,
+        "text": " So, ihr habt es schon an der Minutenzahl erkannt. Das ist heute keine normale Folge. Ja, ehrlich gesagt, das ist \u00fcberhaupt keine Folge, denn ein beachtlicher Teil,",
+        "tokens": [
+          50364,
+          407,
+          11,
+          5553,
+          23660,
+          785,
+          4981,
+          364,
+          1163,
+          2829,
+          325,
+          11368,
+          10722,
+          1189,
+          29680,
+          13,
+          2846,
+          1418,
+          9801,
+          9252,
+          43646,
+          43597,
+          13,
+          3530,
+          11,
+          40872,
+          12260,
+          11,
+          1482,
+          1418,
+          20023,
+          9252,
+          43597,
+          11,
+          10471,
+          1343,
+          312,
+          3589,
+          25215,
+          16357,
+          11,
+          50764
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21319443848397995,
+        "compression_ratio": 1.579250720461095,
+        "no_speech_prob": 0.44873046875,
+        "words": [
+          {
+            "start": 49.52,
+            "end": 49.92,
+            "word": " So,",
+            "probability": 0.431640625
+          },
+          {
+            "start": 50.06,
+            "end": 50.1,
+            "word": " ihr",
+            "probability": 0.86181640625
+          },
+          {
+            "start": 50.1,
+            "end": 50.18,
+            "word": " habt",
+            "probability": 0.6845703125
+          },
+          {
+            "start": 50.18,
+            "end": 50.26,
+            "word": " es",
+            "probability": 0.62353515625
+          },
+          {
+            "start": 50.26,
+            "end": 50.38,
+            "word": " schon",
+            "probability": 0.81201171875
+          },
+          {
+            "start": 50.38,
+            "end": 50.5,
+            "word": " an",
+            "probability": 0.884765625
+          },
+          {
+            "start": 50.5,
+            "end": 50.6,
+            "word": " der",
+            "probability": 0.890625
+          },
+          {
+            "start": 50.6,
+            "end": 51.16,
+            "word": " Minutenzahl",
+            "probability": 0.7747802734375
+          },
+          {
+            "start": 51.16,
+            "end": 51.52,
+            "word": " erkannt.",
+            "probability": 0.88720703125
+          },
+          {
+            "start": 51.72,
+            "end": 51.82,
+            "word": " Das",
+            "probability": 0.8642578125
+          },
+          {
+            "start": 51.82,
+            "end": 51.92,
+            "word": " ist",
+            "probability": 0.810546875
+          },
+          {
+            "start": 51.92,
+            "end": 52.12,
+            "word": " heute",
+            "probability": 0.86083984375
+          },
+          {
+            "start": 52.12,
+            "end": 52.4,
+            "word": " keine",
+            "probability": 0.81689453125
+          },
+          {
+            "start": 52.4,
+            "end": 52.82,
+            "word": " normale",
+            "probability": 0.81591796875
+          },
+          {
+            "start": 52.82,
+            "end": 53.2,
+            "word": " Folge.",
+            "probability": 0.9306640625
+          },
+          {
+            "start": 54.18,
+            "end": 54.3,
+            "word": " Ja,",
+            "probability": 0.317626953125
+          },
+          {
+            "start": 54.32,
+            "end": 54.44,
+            "word": " ehrlich",
+            "probability": 0.6875
+          },
+          {
+            "start": 54.44,
+            "end": 54.64,
+            "word": " gesagt,",
+            "probability": 0.87353515625
+          },
+          {
+            "start": 54.68,
+            "end": 54.76,
+            "word": " das",
+            "probability": 0.6201171875
+          },
+          {
+            "start": 54.76,
+            "end": 54.82,
+            "word": " ist",
+            "probability": 0.80126953125
+          },
+          {
+            "start": 54.82,
+            "end": 55.04,
+            "word": " \u00fcberhaupt",
+            "probability": 0.69970703125
+          },
+          {
+            "start": 55.04,
+            "end": 55.32,
+            "word": " keine",
+            "probability": 0.81982421875
+          },
+          {
+            "start": 55.32,
+            "end": 55.64,
+            "word": " Folge,",
+            "probability": 0.93994140625
+          },
+          {
+            "start": 55.8,
+            "end": 55.94,
+            "word": " denn",
+            "probability": 0.81201171875
+          },
+          {
+            "start": 55.94,
+            "end": 56.24,
+            "word": " ein",
+            "probability": 0.91845703125
+          },
+          {
+            "start": 56.24,
+            "end": 56.9,
+            "word": " beachtlicher",
+            "probability": 0.8885091145833334
+          },
+          {
+            "start": 56.9,
+            "end": 57.28,
+            "word": " Teil,",
+            "probability": 0.875
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "seek": 7554,
+        "start": 57.44,
+        "end": 68.08,
+        "text": " n\u00e4mlich ganze 50 Prozent dieser Show fehlen heute. Denn Felix ist krank und deshalb m\u00fcssen wir aus gesundheitlichen Gr\u00fcnden den Start von Gemischtes Hack im Jahr 2023 leider um eine Woche verschieben.",
+        "tokens": [
+          50764,
+          21219,
+          18898,
+          2625,
+          29726,
+          9053,
+          6895,
+          34741,
+          6698,
+          9801,
+          13,
+          19027,
+          30169,
+          1418,
+          15913,
+          657,
+          674,
+          28457,
+          9013,
+          1987,
+          3437,
+          49176,
+          8480,
+          10193,
+          2606,
+          27687,
+          1441,
+          6481,
+          2957,
+          22894,
+          271,
+          4701,
+          279,
+          35170,
+          566,
+          11674,
+          44377,
+          29115,
+          1105,
+          3018,
+          24511,
+          20563,
+          38243,
+          13,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21319443848397995,
+        "compression_ratio": 1.579250720461095,
+        "no_speech_prob": 0.44873046875,
+        "words": [
+          {
+            "start": 57.44,
+            "end": 57.58,
+            "word": " n\u00e4mlich",
+            "probability": 0.68798828125
+          },
+          {
+            "start": 57.58,
+            "end": 57.8,
+            "word": " ganze",
+            "probability": 0.81884765625
+          },
+          {
+            "start": 57.8,
+            "end": 58.24,
+            "word": " 50",
+            "probability": 0.89599609375
+          },
+          {
+            "start": 58.24,
+            "end": 58.6,
+            "word": " Prozent",
+            "probability": 0.4208984375
+          },
+          {
+            "start": 58.6,
+            "end": 58.88,
+            "word": " dieser",
+            "probability": 0.77099609375
+          },
+          {
+            "start": 58.88,
+            "end": 59.26,
+            "word": " Show",
+            "probability": 0.84228515625
+          },
+          {
+            "start": 59.26,
+            "end": 59.64,
+            "word": " fehlen",
+            "probability": 0.760498046875
+          },
+          {
+            "start": 59.64,
+            "end": 59.98,
+            "word": " heute.",
+            "probability": 0.8818359375
+          },
+          {
+            "start": 60.6,
+            "end": 60.82,
+            "word": " Denn",
+            "probability": 0.916015625
+          },
+          {
+            "start": 60.82,
+            "end": 61.14,
+            "word": " Felix",
+            "probability": 0.91162109375
+          },
+          {
+            "start": 61.14,
+            "end": 61.32,
+            "word": " ist",
+            "probability": 0.8076171875
+          },
+          {
+            "start": 61.32,
+            "end": 61.66,
+            "word": " krank",
+            "probability": 0.883544921875
+          },
+          {
+            "start": 61.66,
+            "end": 62.02,
+            "word": " und",
+            "probability": 0.302490234375
+          },
+          {
+            "start": 62.02,
+            "end": 62.24,
+            "word": " deshalb",
+            "probability": 0.865234375
+          },
+          {
+            "start": 62.24,
+            "end": 62.42,
+            "word": " m\u00fcssen",
+            "probability": 0.92578125
+          },
+          {
+            "start": 62.42,
+            "end": 62.52,
+            "word": " wir",
+            "probability": 0.8828125
+          },
+          {
+            "start": 62.52,
+            "end": 62.62,
+            "word": " aus",
+            "probability": 0.89501953125
+          },
+          {
+            "start": 62.62,
+            "end": 63.26,
+            "word": " gesundheitlichen",
+            "probability": 0.9462890625
+          },
+          {
+            "start": 63.26,
+            "end": 63.6,
+            "word": " Gr\u00fcnden",
+            "probability": 0.93212890625
+          },
+          {
+            "start": 63.6,
+            "end": 63.94,
+            "word": " den",
+            "probability": 0.892578125
+          },
+          {
+            "start": 63.94,
+            "end": 64.42,
+            "word": " Start",
+            "probability": 0.8994140625
+          },
+          {
+            "start": 64.42,
+            "end": 64.6,
+            "word": " von",
+            "probability": 0.94482421875
+          },
+          {
+            "start": 64.6,
+            "end": 65.0,
+            "word": " Gemischtes",
+            "probability": 0.74627685546875
+          },
+          {
+            "start": 65.0,
+            "end": 65.2,
+            "word": " Hack",
+            "probability": 0.9228515625
+          },
+          {
+            "start": 65.2,
+            "end": 65.4,
+            "word": " im",
+            "probability": 0.875
+          },
+          {
+            "start": 65.4,
+            "end": 65.64,
+            "word": " Jahr",
+            "probability": 0.75634765625
+          },
+          {
+            "start": 65.64,
+            "end": 66.74,
+            "word": " 2023",
+            "probability": 0.85888671875
+          },
+          {
+            "start": 66.74,
+            "end": 67.08,
+            "word": " leider",
+            "probability": 0.75244140625
+          },
+          {
+            "start": 67.08,
+            "end": 67.24,
+            "word": " um",
+            "probability": 0.92333984375
+          },
+          {
+            "start": 67.24,
+            "end": 67.36,
+            "word": " eine",
+            "probability": 0.64111328125
+          },
+          {
+            "start": 67.36,
+            "end": 67.56,
+            "word": " Woche",
+            "probability": 0.90869140625
+          },
+          {
+            "start": 67.56,
+            "end": 68.08,
+            "word": " verschieben.",
+            "probability": 0.900634765625
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "seek": 7554,
+        "start": 68.34,
+        "end": 75.54,
+        "text": " Tut uns sehr leid. Und dabei bin ich gerade sogar in Berlin. Dabei bin ich in Berlin, nicht in K\u00f6ln. Berlin sieht irgendwie gerade so ein bisschen, ich habe mal eben rausgeguckt,",
+        "tokens": [
+          51314,
+          18392,
+          2693,
+          5499,
+          476,
+          327,
+          13,
+          2719,
+          14967,
+          5171,
+          1893,
+          12117,
+          19485,
+          294,
+          13848,
+          13,
+          39606,
+          5171,
+          1893,
+          294,
+          13848,
+          11,
+          1979,
+          294,
+          591,
+          13072,
+          77,
+          13,
+          13848,
+          14289,
+          20759,
+          12117,
+          370,
+          1343,
+          10763,
+          11,
+          1893,
+          6015,
+          2806,
+          11375,
+          17202,
+          432,
+          70,
+          47800,
+          11,
+          51664
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.21319443848397995,
+        "compression_ratio": 1.579250720461095,
+        "no_speech_prob": 0.44873046875,
+        "words": [
+          {
+            "start": 68.34,
+            "end": 68.5,
+            "word": " Tut",
+            "probability": 0.86181640625
+          },
+          {
+            "start": 68.5,
+            "end": 68.64,
+            "word": " uns",
+            "probability": 0.80517578125
+          },
+          {
+            "start": 68.64,
+            "end": 68.86,
+            "word": " sehr",
+            "probability": 0.81494140625
+          },
+          {
+            "start": 68.86,
+            "end": 69.22,
+            "word": " leid.",
+            "probability": 0.918701171875
+          },
+          {
+            "start": 69.76,
+            "end": 69.82,
+            "word": " Und",
+            "probability": 0.80859375
+          },
+          {
+            "start": 69.82,
+            "end": 69.94,
+            "word": " dabei",
+            "probability": 0.8037109375
+          },
+          {
+            "start": 69.94,
+            "end": 70.12,
+            "word": " bin",
+            "probability": 0.90185546875
+          },
+          {
+            "start": 70.12,
+            "end": 70.22,
+            "word": " ich",
+            "probability": 0.78564453125
+          },
+          {
+            "start": 70.22,
+            "end": 70.4,
+            "word": " gerade",
+            "probability": 0.689453125
+          },
+          {
+            "start": 70.4,
+            "end": 70.56,
+            "word": " sogar",
+            "probability": 0.744140625
+          },
+          {
+            "start": 70.56,
+            "end": 70.68,
+            "word": " in",
+            "probability": 0.90380859375
+          },
+          {
+            "start": 70.68,
+            "end": 70.96,
+            "word": " Berlin.",
+            "probability": 0.9384765625
+          },
+          {
+            "start": 71.18,
+            "end": 71.32,
+            "word": " Dabei",
+            "probability": 0.53125
+          },
+          {
+            "start": 71.32,
+            "end": 71.7,
+            "word": " bin",
+            "probability": 0.90478515625
+          },
+          {
+            "start": 71.7,
+            "end": 71.88,
+            "word": " ich",
+            "probability": 0.79541015625
+          },
+          {
+            "start": 71.88,
+            "end": 72.0,
+            "word": " in",
+            "probability": 0.90185546875
+          },
+          {
+            "start": 72.0,
+            "end": 72.28,
+            "word": " Berlin,",
+            "probability": 0.93359375
+          },
+          {
+            "start": 72.38,
+            "end": 72.44,
+            "word": " nicht",
+            "probability": 0.72607421875
+          },
+          {
+            "start": 72.44,
+            "end": 72.62,
+            "word": " in",
+            "probability": 0.87353515625
+          },
+          {
+            "start": 72.62,
+            "end": 72.96,
+            "word": " K\u00f6ln.",
+            "probability": 0.94482421875
+          },
+          {
+            "start": 73.24,
+            "end": 73.5,
+            "word": " Berlin",
+            "probability": 0.89990234375
+          },
+          {
+            "start": 73.5,
+            "end": 73.7,
+            "word": " sieht",
+            "probability": 0.8193359375
+          },
+          {
+            "start": 73.7,
+            "end": 74.02,
+            "word": " irgendwie",
+            "probability": 0.775390625
+          },
+          {
+            "start": 74.02,
+            "end": 74.26,
+            "word": " gerade",
+            "probability": 0.7685546875
+          },
+          {
+            "start": 74.26,
+            "end": 74.36,
+            "word": " so",
+            "probability": 0.8056640625
+          },
+          {
+            "start": 74.36,
+            "end": 74.42,
+            "word": " ein",
+            "probability": 0.9345703125
+          },
+          {
+            "start": 74.42,
+            "end": 74.6,
+            "word": " bisschen,",
+            "probability": 0.9267578125
+          },
+          {
+            "start": 74.68,
+            "end": 74.76,
+            "word": " ich",
+            "probability": 0.8037109375
+          },
+          {
+            "start": 74.76,
+            "end": 74.84,
+            "word": " habe",
+            "probability": 0.488037109375
+          },
+          {
+            "start": 74.84,
+            "end": 74.96,
+            "word": " mal",
+            "probability": 0.437255859375
+          },
+          {
+            "start": 74.96,
+            "end": 75.06,
+            "word": " eben",
+            "probability": 0.89794921875
+          },
+          {
+            "start": 75.06,
+            "end": 75.54,
+            "word": " rausgeguckt,",
+            "probability": 0.836669921875
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "seek": 10080,
+        "start": 75.54,
+        "end": 82.5,
+        "text": " es sieht so ein bisschen aus, als w\u00e4re es von Christo in B\u00f6llerreste verh\u00fcllt worden. Aber macht euch bitte keine Sorgen. Macht euch keine Sorgen.",
+        "tokens": [
+          50364,
+          785,
+          14289,
+          370,
+          1343,
+          10763,
+          3437,
+          11,
+          3907,
+          14558,
+          785,
+          2957,
+          2040,
+          78,
+          294,
+          363,
+          973,
+          4658,
+          265,
+          2941,
+          1306,
+          71,
+          49976,
+          14054,
+          13,
+          5992,
+          10857,
+          10403,
+          23231,
+          9252,
+          21421,
+          1766,
+          13,
+          40873,
+          10403,
+          9252,
+          21421,
+          1766,
+          13,
+          50714
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22662306201550386,
+        "compression_ratio": 1.6412698412698412,
+        "no_speech_prob": 0.66748046875,
+        "words": [
+          {
+            "start": 75.54,
+            "end": 75.6,
+            "word": " es",
+            "probability": 0.08221435546875
+          },
+          {
+            "start": 75.6,
+            "end": 75.6,
+            "word": " sieht",
+            "probability": 0.013702392578125
+          },
+          {
+            "start": 75.6,
+            "end": 75.7,
+            "word": " so",
+            "probability": 0.2332763671875
+          },
+          {
+            "start": 75.7,
+            "end": 75.72,
+            "word": " ein",
+            "probability": 0.72607421875
+          },
+          {
+            "start": 75.72,
+            "end": 75.86,
+            "word": " bisschen",
+            "probability": 0.8828125
+          },
+          {
+            "start": 75.86,
+            "end": 76.1,
+            "word": " aus,",
+            "probability": 0.80224609375
+          },
+          {
+            "start": 76.2,
+            "end": 76.24,
+            "word": " als",
+            "probability": 0.84912109375
+          },
+          {
+            "start": 76.24,
+            "end": 76.32,
+            "word": " w\u00e4re",
+            "probability": 0.6064453125
+          },
+          {
+            "start": 76.32,
+            "end": 76.4,
+            "word": " es",
+            "probability": 0.8740234375
+          },
+          {
+            "start": 76.4,
+            "end": 76.54,
+            "word": " von",
+            "probability": 0.876953125
+          },
+          {
+            "start": 76.54,
+            "end": 77.08,
+            "word": " Christo",
+            "probability": 0.7763671875
+          },
+          {
+            "start": 77.08,
+            "end": 77.64,
+            "word": " in",
+            "probability": 0.87109375
+          },
+          {
+            "start": 77.64,
+            "end": 78.24,
+            "word": " B\u00f6llerreste",
+            "probability": 0.88759765625
+          },
+          {
+            "start": 78.24,
+            "end": 78.7,
+            "word": " verh\u00fcllt",
+            "probability": 0.89013671875
+          },
+          {
+            "start": 78.7,
+            "end": 79.12,
+            "word": " worden.",
+            "probability": 0.7451171875
+          },
+          {
+            "start": 79.94,
+            "end": 80.1,
+            "word": " Aber",
+            "probability": 0.74072265625
+          },
+          {
+            "start": 80.1,
+            "end": 80.32,
+            "word": " macht",
+            "probability": 0.6796875
+          },
+          {
+            "start": 80.32,
+            "end": 80.46,
+            "word": " euch",
+            "probability": 0.7548828125
+          },
+          {
+            "start": 80.46,
+            "end": 80.76,
+            "word": " bitte",
+            "probability": 0.80029296875
+          },
+          {
+            "start": 80.76,
+            "end": 81.28,
+            "word": " keine",
+            "probability": 0.83251953125
+          },
+          {
+            "start": 81.28,
+            "end": 81.7,
+            "word": " Sorgen.",
+            "probability": 0.87744140625
+          },
+          {
+            "start": 81.9,
+            "end": 82.0,
+            "word": " Macht",
+            "probability": 0.52978515625
+          },
+          {
+            "start": 82.0,
+            "end": 82.12,
+            "word": " euch",
+            "probability": 0.828125
+          },
+          {
+            "start": 82.12,
+            "end": 82.3,
+            "word": " keine",
+            "probability": 0.80908203125
+          },
+          {
+            "start": 82.3,
+            "end": 82.5,
+            "word": " Sorgen.",
+            "probability": 0.86865234375
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "seek": 10080,
+        "start": 82.58,
+        "end": 91.46,
+        "text": " N\u00e4chste Woche geht es ganz normal weiter, versprochen. Dann sind wir hier alle wieder an Bord. Und bevor das jetzt hier wirrer wird als so ein Christine Lambrecht Monolog auf Instagram,",
+        "tokens": [
+          50714,
+          426,
+          10168,
+          2941,
+          24511,
+          7095,
+          785,
+          6312,
+          2710,
+          8988,
+          11,
+          1774,
+          23902,
+          13,
+          7455,
+          3290,
+          1987,
+          3296,
+          5430,
+          6216,
+          364,
+          363,
+          765,
+          13,
+          2719,
+          37591,
+          1482,
+          4354,
+          3296,
+          1987,
+          9797,
+          4578,
+          3907,
+          370,
+          1343,
+          24038,
+          19302,
+          31495,
+          4713,
+          1132,
+          2501,
+          5281,
+          11,
+          51164
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22662306201550386,
+        "compression_ratio": 1.6412698412698412,
+        "no_speech_prob": 0.66748046875,
+        "words": [
+          {
+            "start": 82.58,
+            "end": 82.78,
+            "word": " N\u00e4chste",
+            "probability": 0.9480794270833334
+          },
+          {
+            "start": 82.78,
+            "end": 82.94,
+            "word": " Woche",
+            "probability": 0.8994140625
+          },
+          {
+            "start": 82.94,
+            "end": 83.16,
+            "word": " geht",
+            "probability": 0.93115234375
+          },
+          {
+            "start": 83.16,
+            "end": 83.22,
+            "word": " es",
+            "probability": 0.669921875
+          },
+          {
+            "start": 83.22,
+            "end": 83.4,
+            "word": " ganz",
+            "probability": 0.81005859375
+          },
+          {
+            "start": 83.4,
+            "end": 83.68,
+            "word": " normal",
+            "probability": 0.7646484375
+          },
+          {
+            "start": 83.68,
+            "end": 84.12,
+            "word": " weiter,",
+            "probability": 0.85400390625
+          },
+          {
+            "start": 84.24,
+            "end": 84.78,
+            "word": " versprochen.",
+            "probability": 0.89794921875
+          },
+          {
+            "start": 85.02,
+            "end": 85.18,
+            "word": " Dann",
+            "probability": 0.84326171875
+          },
+          {
+            "start": 85.18,
+            "end": 85.3,
+            "word": " sind",
+            "probability": 0.87353515625
+          },
+          {
+            "start": 85.3,
+            "end": 85.42,
+            "word": " wir",
+            "probability": 0.89501953125
+          },
+          {
+            "start": 85.42,
+            "end": 85.52,
+            "word": " hier",
+            "probability": 0.70458984375
+          },
+          {
+            "start": 85.52,
+            "end": 85.66,
+            "word": " alle",
+            "probability": 0.7607421875
+          },
+          {
+            "start": 85.66,
+            "end": 85.84,
+            "word": " wieder",
+            "probability": 0.7275390625
+          },
+          {
+            "start": 85.84,
+            "end": 86.0,
+            "word": " an",
+            "probability": 0.94873046875
+          },
+          {
+            "start": 86.0,
+            "end": 86.24,
+            "word": " Bord.",
+            "probability": 0.892578125
+          },
+          {
+            "start": 86.52,
+            "end": 86.7,
+            "word": " Und",
+            "probability": 0.8291015625
+          },
+          {
+            "start": 86.7,
+            "end": 87.22,
+            "word": " bevor",
+            "probability": 0.96142578125
+          },
+          {
+            "start": 87.22,
+            "end": 87.4,
+            "word": " das",
+            "probability": 0.84619140625
+          },
+          {
+            "start": 87.4,
+            "end": 87.56,
+            "word": " jetzt",
+            "probability": 0.79052734375
+          },
+          {
+            "start": 87.56,
+            "end": 87.72,
+            "word": " hier",
+            "probability": 0.8203125
+          },
+          {
+            "start": 87.72,
+            "end": 88.04,
+            "word": " wirrer",
+            "probability": 0.774658203125
+          },
+          {
+            "start": 88.04,
+            "end": 88.26,
+            "word": " wird",
+            "probability": 0.7861328125
+          },
+          {
+            "start": 88.26,
+            "end": 88.58,
+            "word": " als",
+            "probability": 0.5185546875
+          },
+          {
+            "start": 88.58,
+            "end": 89.64,
+            "word": " so",
+            "probability": 0.6171875
+          },
+          {
+            "start": 89.64,
+            "end": 89.72,
+            "word": " ein",
+            "probability": 0.88720703125
+          },
+          {
+            "start": 89.72,
+            "end": 90.08,
+            "word": " Christine",
+            "probability": 0.642578125
+          },
+          {
+            "start": 90.08,
+            "end": 90.52,
+            "word": " Lambrecht",
+            "probability": 0.7197265625
+          },
+          {
+            "start": 90.52,
+            "end": 90.94,
+            "word": " Monolog",
+            "probability": 0.806640625
+          },
+          {
+            "start": 90.94,
+            "end": 91.08,
+            "word": " auf",
+            "probability": 0.81005859375
+          },
+          {
+            "start": 91.08,
+            "end": 91.46,
+            "word": " Instagram,",
+            "probability": 0.9052734375
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "seek": 10080,
+        "start": 91.68,
+        "end": 100.8,
+        "text": " h\u00f6re ich jetzt besser auf und sage einfach liebe Gr\u00fc\u00dfe an alle. Sorry nochmal, aber so ist es halt manchmal. So ist das Leben. Wir sind ja n\u00e4chste Woche wieder da, versprochen.",
+        "tokens": [
+          51164,
+          13531,
+          265,
+          1893,
+          4354,
+          18021,
+          2501,
+          674,
+          19721,
+          7281,
+          31623,
+          38908,
+          11451,
+          364,
+          5430,
+          13,
+          4919,
+          26509,
+          11,
+          4340,
+          370,
+          1418,
+          785,
+          12479,
+          32092,
+          13,
+          407,
+          1418,
+          1482,
+          15399,
+          13,
+          4347,
+          3290,
+          2784,
+          30661,
+          24511,
+          6216,
+          1120,
+          11,
+          1774,
+          23902,
+          13,
+          51614
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22662306201550386,
+        "compression_ratio": 1.6412698412698412,
+        "no_speech_prob": 0.66748046875,
+        "words": [
+          {
+            "start": 91.68,
+            "end": 91.84,
+            "word": " h\u00f6re",
+            "probability": 0.838623046875
+          },
+          {
+            "start": 91.84,
+            "end": 91.96,
+            "word": " ich",
+            "probability": 0.81591796875
+          },
+          {
+            "start": 91.96,
+            "end": 92.12,
+            "word": " jetzt",
+            "probability": 0.8095703125
+          },
+          {
+            "start": 92.12,
+            "end": 92.36,
+            "word": " besser",
+            "probability": 0.8046875
+          },
+          {
+            "start": 92.36,
+            "end": 92.68,
+            "word": " auf",
+            "probability": 0.81982421875
+          },
+          {
+            "start": 92.68,
+            "end": 93.38,
+            "word": " und",
+            "probability": 0.796875
+          },
+          {
+            "start": 93.38,
+            "end": 93.6,
+            "word": " sage",
+            "probability": 0.60205078125
+          },
+          {
+            "start": 93.6,
+            "end": 93.92,
+            "word": " einfach",
+            "probability": 0.72802734375
+          },
+          {
+            "start": 93.92,
+            "end": 94.24,
+            "word": " liebe",
+            "probability": 0.475341796875
+          },
+          {
+            "start": 94.24,
+            "end": 94.54,
+            "word": " Gr\u00fc\u00dfe",
+            "probability": 0.957275390625
+          },
+          {
+            "start": 94.54,
+            "end": 94.72,
+            "word": " an",
+            "probability": 0.91162109375
+          },
+          {
+            "start": 94.72,
+            "end": 94.98,
+            "word": " alle.",
+            "probability": 0.7392578125
+          },
+          {
+            "start": 95.42,
+            "end": 95.7,
+            "word": " Sorry",
+            "probability": 0.77880859375
+          },
+          {
+            "start": 95.7,
+            "end": 96.0,
+            "word": " nochmal,",
+            "probability": 0.64013671875
+          },
+          {
+            "start": 96.34,
+            "end": 96.44,
+            "word": " aber",
+            "probability": 0.890625
+          },
+          {
+            "start": 96.44,
+            "end": 96.56,
+            "word": " so",
+            "probability": 0.89404296875
+          },
+          {
+            "start": 96.56,
+            "end": 96.7,
+            "word": " ist",
+            "probability": 0.80712890625
+          },
+          {
+            "start": 96.7,
+            "end": 96.8,
+            "word": " es",
+            "probability": 0.88330078125
+          },
+          {
+            "start": 96.8,
+            "end": 96.96,
+            "word": " halt",
+            "probability": 0.779296875
+          },
+          {
+            "start": 96.96,
+            "end": 97.28,
+            "word": " manchmal.",
+            "probability": 0.755859375
+          },
+          {
+            "start": 97.64,
+            "end": 97.74,
+            "word": " So",
+            "probability": 0.9033203125
+          },
+          {
+            "start": 97.74,
+            "end": 97.86,
+            "word": " ist",
+            "probability": 0.74072265625
+          },
+          {
+            "start": 97.86,
+            "end": 97.96,
+            "word": " das",
+            "probability": 0.78076171875
+          },
+          {
+            "start": 97.96,
+            "end": 98.2,
+            "word": " Leben.",
+            "probability": 0.9052734375
+          },
+          {
+            "start": 98.82,
+            "end": 98.9,
+            "word": " Wir",
+            "probability": 0.74462890625
+          },
+          {
+            "start": 98.9,
+            "end": 99.0,
+            "word": " sind",
+            "probability": 0.896484375
+          },
+          {
+            "start": 99.0,
+            "end": 99.12,
+            "word": " ja",
+            "probability": 0.85009765625
+          },
+          {
+            "start": 99.12,
+            "end": 99.32,
+            "word": " n\u00e4chste",
+            "probability": 0.8779296875
+          },
+          {
+            "start": 99.32,
+            "end": 99.54,
+            "word": " Woche",
+            "probability": 0.90625
+          },
+          {
+            "start": 99.54,
+            "end": 99.74,
+            "word": " wieder",
+            "probability": 0.751953125
+          },
+          {
+            "start": 99.74,
+            "end": 100.04,
+            "word": " da,",
+            "probability": 0.84619140625
+          },
+          {
+            "start": 100.34,
+            "end": 100.8,
+            "word": " versprochen.",
+            "probability": 0.90380859375
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "seek": 12395,
+        "start": 100.8,
+        "end": 109.76,
+        "text": " Und die letzten Worte hat der wunderbare Ich. Und ich sage Tsch\u00fcss und wirklich vielen, vielen Dank f\u00fcr euer Verst\u00e4ndnis. N\u00e4chste Woche sind wir wieder da.",
+        "tokens": [
+          50364,
+          2719,
+          978,
+          18226,
+          343,
+          12752,
+          2385,
+          1163,
+          47736,
+          30682,
+          3141,
+          13,
+          2719,
+          1893,
+          19721,
+          44461,
+          35207,
+          674,
+          9696,
+          19885,
+          11,
+          19885,
+          14148,
+          2959,
+          2228,
+          260,
+          4281,
+          16913,
+          10661,
+          13,
+          426,
+          10168,
+          2941,
+          24511,
+          3290,
+          1987,
+          6216,
+          1120,
+          13,
+          50814
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22971491580992415,
+        "compression_ratio": 1.5535055350553506,
+        "no_speech_prob": 0.4794921875,
+        "words": [
+          {
+            "start": 100.8,
+            "end": 101.1,
+            "word": " Und",
+            "probability": 0.34326171875
+          },
+          {
+            "start": 101.1,
+            "end": 101.26,
+            "word": " die",
+            "probability": 0.8212890625
+          },
+          {
+            "start": 101.26,
+            "end": 102.18,
+            "word": " letzten",
+            "probability": 0.64013671875
+          },
+          {
+            "start": 102.18,
+            "end": 102.56,
+            "word": " Worte",
+            "probability": 0.85693359375
+          },
+          {
+            "start": 102.56,
+            "end": 102.72,
+            "word": " hat",
+            "probability": 0.85205078125
+          },
+          {
+            "start": 102.72,
+            "end": 102.84,
+            "word": " der",
+            "probability": 0.7802734375
+          },
+          {
+            "start": 102.84,
+            "end": 103.46,
+            "word": " wunderbare",
+            "probability": 0.844482421875
+          },
+          {
+            "start": 103.46,
+            "end": 103.78,
+            "word": " Ich.",
+            "probability": 0.45703125
+          },
+          {
+            "start": 104.14,
+            "end": 104.2,
+            "word": " Und",
+            "probability": 0.830078125
+          },
+          {
+            "start": 104.2,
+            "end": 104.32,
+            "word": " ich",
+            "probability": 0.8193359375
+          },
+          {
+            "start": 104.32,
+            "end": 104.62,
+            "word": " sage",
+            "probability": 0.391357421875
+          },
+          {
+            "start": 104.62,
+            "end": 105.52,
+            "word": " Tsch\u00fcss",
+            "probability": 0.735595703125
+          },
+          {
+            "start": 105.52,
+            "end": 106.02,
+            "word": " und",
+            "probability": 0.72998046875
+          },
+          {
+            "start": 106.02,
+            "end": 106.26,
+            "word": " wirklich",
+            "probability": 0.701171875
+          },
+          {
+            "start": 106.26,
+            "end": 106.62,
+            "word": " vielen,",
+            "probability": 0.69189453125
+          },
+          {
+            "start": 106.7,
+            "end": 106.84,
+            "word": " vielen",
+            "probability": 0.71337890625
+          },
+          {
+            "start": 106.84,
+            "end": 107.18,
+            "word": " Dank",
+            "probability": 0.86572265625
+          },
+          {
+            "start": 107.18,
+            "end": 107.7,
+            "word": " f\u00fcr",
+            "probability": 0.6259765625
+          },
+          {
+            "start": 107.7,
+            "end": 107.82,
+            "word": " euer",
+            "probability": 0.8828125
+          },
+          {
+            "start": 107.82,
+            "end": 108.48,
+            "word": " Verst\u00e4ndnis.",
+            "probability": 0.9557291666666666
+          },
+          {
+            "start": 108.64,
+            "end": 108.92,
+            "word": " N\u00e4chste",
+            "probability": 0.9392903645833334
+          },
+          {
+            "start": 108.92,
+            "end": 109.08,
+            "word": " Woche",
+            "probability": 0.88818359375
+          },
+          {
+            "start": 109.08,
+            "end": 109.24,
+            "word": " sind",
+            "probability": 0.88037109375
+          },
+          {
+            "start": 109.24,
+            "end": 109.34,
+            "word": " wir",
+            "probability": 0.876953125
+          },
+          {
+            "start": 109.34,
+            "end": 109.5,
+            "word": " wieder",
+            "probability": 0.74072265625
+          },
+          {
+            "start": 109.5,
+            "end": 109.76,
+            "word": " da.",
+            "probability": 0.884765625
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "seek": 12395,
+        "start": 110.46,
+        "end": 119.56,
+        "text": " Und dann freuen wir uns auch drauf, freuen uns auf euch und ihr freut euch hoffentlich auch auf uns. Und ich nutze das jetzt hier auch, um gute Besserung zu sagen an meinen Freund Felix.",
+        "tokens": [
+          50814,
+          2719,
+          3594,
+          41913,
+          1987,
+          2693,
+          2168,
+          22763,
+          11,
+          41913,
+          2693,
+          2501,
+          10403,
+          674,
+          5553,
+          2130,
+          325,
+          10403,
+          1106,
+          22805,
+          2168,
+          2501,
+          2693,
+          13,
+          2719,
+          1893,
+          5393,
+          1381,
+          1482,
+          4354,
+          3296,
+          2168,
+          11,
+          1105,
+          21476,
+          363,
+          14239,
+          1063,
+          2164,
+          8360,
+          364,
+          22738,
+          29685,
+          30169,
+          13,
+          51314
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22971491580992415,
+        "compression_ratio": 1.5535055350553506,
+        "no_speech_prob": 0.4794921875,
+        "words": [
+          {
+            "start": 110.46,
+            "end": 110.54,
+            "word": " Und",
+            "probability": 0.845703125
+          },
+          {
+            "start": 110.54,
+            "end": 110.8,
+            "word": " dann",
+            "probability": 0.796875
+          },
+          {
+            "start": 110.8,
+            "end": 111.3,
+            "word": " freuen",
+            "probability": 0.86865234375
+          },
+          {
+            "start": 111.3,
+            "end": 111.42,
+            "word": " wir",
+            "probability": 0.85302734375
+          },
+          {
+            "start": 111.42,
+            "end": 111.5,
+            "word": " uns",
+            "probability": 0.80224609375
+          },
+          {
+            "start": 111.5,
+            "end": 111.62,
+            "word": " auch",
+            "probability": 0.77392578125
+          },
+          {
+            "start": 111.62,
+            "end": 111.94,
+            "word": " drauf,",
+            "probability": 0.7578125
+          },
+          {
+            "start": 112.06,
+            "end": 112.2,
+            "word": " freuen",
+            "probability": 0.828125
+          },
+          {
+            "start": 112.2,
+            "end": 112.36,
+            "word": " uns",
+            "probability": 0.79345703125
+          },
+          {
+            "start": 112.36,
+            "end": 112.5,
+            "word": " auf",
+            "probability": 0.79541015625
+          },
+          {
+            "start": 112.5,
+            "end": 112.88,
+            "word": " euch",
+            "probability": 0.7861328125
+          },
+          {
+            "start": 112.88,
+            "end": 113.28,
+            "word": " und",
+            "probability": 0.5595703125
+          },
+          {
+            "start": 113.28,
+            "end": 113.54,
+            "word": " ihr",
+            "probability": 0.875
+          },
+          {
+            "start": 113.54,
+            "end": 113.94,
+            "word": " freut",
+            "probability": 0.9267578125
+          },
+          {
+            "start": 113.94,
+            "end": 114.08,
+            "word": " euch",
+            "probability": 0.796875
+          },
+          {
+            "start": 114.08,
+            "end": 114.32,
+            "word": " hoffentlich",
+            "probability": 0.8935546875
+          },
+          {
+            "start": 114.32,
+            "end": 114.54,
+            "word": " auch",
+            "probability": 0.845703125
+          },
+          {
+            "start": 114.54,
+            "end": 114.72,
+            "word": " auf",
+            "probability": 0.82568359375
+          },
+          {
+            "start": 114.72,
+            "end": 115.04,
+            "word": " uns.",
+            "probability": 0.8173828125
+          },
+          {
+            "start": 115.66,
+            "end": 115.8,
+            "word": " Und",
+            "probability": 0.89208984375
+          },
+          {
+            "start": 115.8,
+            "end": 115.9,
+            "word": " ich",
+            "probability": 0.8095703125
+          },
+          {
+            "start": 115.9,
+            "end": 116.12,
+            "word": " nutze",
+            "probability": 0.93310546875
+          },
+          {
+            "start": 116.12,
+            "end": 116.26,
+            "word": " das",
+            "probability": 0.8720703125
+          },
+          {
+            "start": 116.26,
+            "end": 116.4,
+            "word": " jetzt",
+            "probability": 0.8037109375
+          },
+          {
+            "start": 116.4,
+            "end": 116.6,
+            "word": " hier",
+            "probability": 0.86083984375
+          },
+          {
+            "start": 116.6,
+            "end": 116.88,
+            "word": " auch,",
+            "probability": 0.80224609375
+          },
+          {
+            "start": 117.08,
+            "end": 117.12,
+            "word": " um",
+            "probability": 0.9111328125
+          },
+          {
+            "start": 117.12,
+            "end": 117.36,
+            "word": " gute",
+            "probability": 0.38916015625
+          },
+          {
+            "start": 117.36,
+            "end": 117.72,
+            "word": " Besserung",
+            "probability": 0.7508138020833334
+          },
+          {
+            "start": 117.72,
+            "end": 117.9,
+            "word": " zu",
+            "probability": 0.88037109375
+          },
+          {
+            "start": 117.9,
+            "end": 118.04,
+            "word": " sagen",
+            "probability": 0.76953125
+          },
+          {
+            "start": 118.04,
+            "end": 118.2,
+            "word": " an",
+            "probability": 0.8603515625
+          },
+          {
+            "start": 118.2,
+            "end": 118.4,
+            "word": " meinen",
+            "probability": 0.82080078125
+          },
+          {
+            "start": 118.4,
+            "end": 118.76,
+            "word": " Freund",
+            "probability": 0.87890625
+          },
+          {
+            "start": 118.76,
+            "end": 119.56,
+            "word": " Felix.",
+            "probability": 0.81298828125
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "seek": 12395,
+        "start": 119.72,
+        "end": 123.26,
+        "text": " Gute Besserung, mein Lieber. Macht's gut, bleibt stabil. Euer Tommi. Ciao.",
+        "tokens": [
+          51314,
+          460,
+          1169,
+          363,
+          14239,
+          1063,
+          11,
+          10777,
+          11197,
+          607,
+          13,
+          40873,
+          311,
+          5228,
+          11,
+          24814,
+          11652,
+          13,
+          2186,
+          260,
+          314,
+          1204,
+          72,
+          13,
+          28473,
+          13,
+          51514
+        ],
+        "temperature": 0.0,
+        "avg_logprob": -0.22971491580992415,
+        "compression_ratio": 1.5535055350553506,
+        "no_speech_prob": 0.4794921875,
+        "words": [
+          {
+            "start": 119.72,
+            "end": 119.88,
+            "word": " Gute",
+            "probability": 0.934326171875
+          },
+          {
+            "start": 119.88,
+            "end": 120.18,
+            "word": " Besserung,",
+            "probability": 0.9441731770833334
+          },
+          {
+            "start": 120.26,
+            "end": 120.32,
+            "word": " mein",
+            "probability": 0.86767578125
+          },
+          {
+            "start": 120.32,
+            "end": 120.54,
+            "word": " Lieber.",
+            "probability": 0.938720703125
+          },
+          {
+            "start": 120.78,
+            "end": 121.0,
+            "word": " Macht's",
+            "probability": 0.80126953125
+          },
+          {
+            "start": 121.0,
+            "end": 121.18,
+            "word": " gut,",
+            "probability": 0.91064453125
+          },
+          {
+            "start": 121.4,
+            "end": 121.58,
+            "word": " bleibt",
+            "probability": 0.79833984375
+          },
+          {
+            "start": 121.58,
+            "end": 122.06,
+            "word": " stabil.",
+            "probability": 0.69384765625
+          },
+          {
+            "start": 122.42,
+            "end": 122.62,
+            "word": " Euer",
+            "probability": 0.9345703125
+          },
+          {
+            "start": 122.62,
+            "end": 122.94,
+            "word": " Tommi.",
+            "probability": 0.752685546875
+          },
+          {
+            "start": 123.14,
+            "end": 123.26,
+            "word": " Ciao.",
+            "probability": 0.6767578125
+          }
+        ]
+      }
+    ],
+    {
+      "language": "de",
+      "language_probability": 0.99853515625,
+      "duration": 123.951,
+      "all_language_probs": [
+        [
+          "de",
+          0.99853515625
+        ],
+        [
+          "en",
+          0.0009107589721679688
+        ],
+        [
+          "nn",
+          5.424022674560547e-05
+        ],
+        [
+          "fr",
+          4.8995018005371094e-05
+        ],
+        [
+          "la",
+          4.678964614868164e-05
+        ],
+        [
+          "es",
+          3.6716461181640625e-05
+        ],
+        [
+          "ja",
+          3.451108932495117e-05
+        ],
+        [
+          "ko",
+          3.3974647521972656e-05
+        ],
+        [
+          "hu",
+          3.3974647521972656e-05
+        ],
+        [
+          "pt",
+          2.7954578399658203e-05
+        ],
+        [
+          "da",
+          2.7954578399658203e-05
+        ],
+        [
+          "it",
+          2.4437904357910156e-05
+        ],
+        [
+          "el",
+          1.9669532775878906e-05
+        ],
+        [
+          "nl",
+          1.7762184143066406e-05
+        ],
+        [
+          "th",
+          1.531839370727539e-05
+        ],
+        [
+          "km",
+          1.341104507446289e-05
+        ],
+        [
+          "ru",
+          1.1920928955078125e-05
+        ],
+        [
+          "pl",
+          1.1265277862548828e-05
+        ],
+        [
+          "ro",
+          1.0013580322265625e-05
+        ],
+        [
+          "jw",
+          9.059906005859375e-06
+        ],
+        [
+          "vi",
+          9.000301361083984e-06
+        ],
+        [
+          "id",
+          7.68899917602539e-06
+        ],
+        [
+          "tr",
+          7.569789886474609e-06
+        ],
+        [
+          "ar",
+          6.556510925292969e-06
+        ],
+        [
+          "cy",
+          5.364418029785156e-06
+        ],
+        [
+          "sv",
+          5.185604095458984e-06
+        ],
+        [
+          "he",
+          5.185604095458984e-06
+        ],
+        [
+          "zh",
+          5.066394805908203e-06
+        ],
+        [
+          "ml",
+          4.708766937255859e-06
+        ],
+        [
+          "haw",
+          4.649162292480469e-06
+        ],
+        [
+          "tl",
+          4.291534423828125e-06
+        ],
+        [
+          "cs",
+          4.291534423828125e-06
+        ],
+        [
+          "sn",
+          3.874301910400391e-06
+        ],
+        [
+          "hi",
+          3.874301910400391e-06
+        ],
+        [
+          "fa",
+          3.039836883544922e-06
+        ],
+        [
+          "yi",
+          2.9206275939941406e-06
+        ],
+        [
+          "br",
+          2.3245811462402344e-06
+        ],
+        [
+          "ms",
+          1.7285346984863281e-06
+        ],
+        [
+          "sa",
+          1.4901161193847656e-06
+        ],
+        [
+          "te",
+          1.1324882507324219e-06
+        ],
+        [
+          "no",
+          9.5367431640625e-07
+        ],
+        [
+          "si",
+          7.748603820800781e-07
+        ],
+        [
+          "ur",
+          7.152557373046875e-07
+        ],
+        [
+          "fi",
+          7.152557373046875e-07
+        ],
+        [
+          "ta",
+          6.556510925292969e-07
+        ],
+        [
+          "mi",
+          5.960464477539062e-07
+        ],
+        [
+          "bn",
+          4.76837158203125e-07
+        ],
+        [
+          "hy",
+          4.76837158203125e-07
+        ],
+        [
+          "gl",
+          2.980232238769531e-07
+        ],
+        [
+          "hr",
+          2.980232238769531e-07
+        ],
+        [
+          "yo",
+          2.980232238769531e-07
+        ],
+        [
+          "eu",
+          2.980232238769531e-07
+        ],
+        [
+          "sw",
+          2.384185791015625e-07
+        ],
+        [
+          "ht",
+          1.7881393432617188e-07
+        ],
+        [
+          "uk",
+          1.7881393432617188e-07
+        ],
+        [
+          "ca",
+          1.7881393432617188e-07
+        ],
+        [
+          "lt",
+          1.1920928955078125e-07
+        ],
+        [
+          "mn",
+          1.1920928955078125e-07
+        ],
+        [
+          "sl",
+          1.1920928955078125e-07
+        ],
+        [
+          "bg",
+          5.960464477539063e-08
+        ],
+        [
+          "bs",
+          5.960464477539063e-08
+        ],
+        [
+          "ne",
+          5.960464477539063e-08
+        ],
+        [
+          "is",
+          5.960464477539063e-08
+        ],
+        [
+          "oc",
+          5.960464477539063e-08
+        ],
+        [
+          "sd",
+          5.960464477539063e-08
+        ],
+        [
+          "lb",
+          5.960464477539063e-08
+        ],
+        [
+          "et",
+          5.960464477539063e-08
+        ],
+        [
+          "lo",
+          5.960464477539063e-08
+        ],
+        [
+          "fo",
+          5.960464477539063e-08
+        ],
+        [
+          "sr",
+          5.960464477539063e-08
+        ],
+        [
+          "lv",
+          5.960464477539063e-08
+        ],
+        [
+          "my",
+          5.960464477539063e-08
+        ],
+        [
+          "sk",
+          5.960464477539063e-08
+        ],
+        [
+          "mr",
+          0.0
+        ],
+        [
+          "pa",
+          0.0
+        ],
+        [
+          "am",
+          0.0
+        ],
+        [
+          "az",
+          0.0
+        ],
+        [
+          "kk",
+          0.0
+        ],
+        [
+          "uz",
+          0.0
+        ],
+        [
+          "sq",
+          0.0
+        ],
+        [
+          "kn",
+          0.0
+        ],
+        [
+          "ps",
+          0.0
+        ],
+        [
+          "tk",
+          0.0
+        ],
+        [
+          "so",
+          0.0
+        ],
+        [
+          "mt",
+          0.0
+        ],
+        [
+          "af",
+          0.0
+        ],
+        [
+          "gu",
+          0.0
+        ],
+        [
+          "mk",
+          0.0
+        ],
+        [
+          "bo",
+          0.0
+        ],
+        [
+          "ka",
+          0.0
+        ],
+        [
+          "mg",
+          0.0
+        ],
+        [
+          "as",
+          0.0
+        ],
+        [
+          "tt",
+          0.0
+        ],
+        [
+          "be",
+          0.0
+        ],
+        [
+          "ln",
+          0.0
+        ],
+        [
+          "ha",
+          0.0
+        ],
+        [
+          "ba",
+          0.0
+        ],
+        [
+          "tg",
+          0.0
+        ],
+        [
+          "su",
+          0.0
+        ]
+      ],
+      "transcription_options": {
+        "beam_size": 5,
+        "best_of": 5,
+        "patience": 1,
+        "length_penalty": 1,
+        "log_prob_threshold": -1.0,
+        "no_speech_threshold": 0.6,
+        "compression_ratio_threshold": 2.4,
+        "condition_on_previous_text": true,
+        "temperatures": [
+          0.0,
+          0.2,
+          0.4,
+          0.6,
+          0.8,
+          1.0
+        ],
+        "initial_prompt": "Teachers asking how and why, bitches passing by, oh my he's so Gangster. Das, meine Damen und Herren, war von den Clips Youngboy von dem eins der geilsten Hip Hop Alben die je gemacht wurden, n\u00e4mlich Lord Villain, checkt das unbedingt aus. Und ich widme dieses Zitat dem, den ich sch\u00e4tze mal Obdachlosen, der letzte Nacht sich dazu entschieden hat hier bei mir im Hausflur zu pennen, oben bei uns auf der Etage, und der hat einfach, weil ich bin neulich in Hundekacke getreten, da habe ich meine voll hundegekackten Airforce drau\u00dfen stehen gehabt und sein Gangster Move war, dass er einfach die Nike Zeichen rot gemalt hat. Und damit herzlich willkommen zu einer neuen Folge Gemischtes Hack. Mein Name ist Felix Lobrecht. Mir gegen\u00fcber sitzt wie immer der wunderbare Tommi Schmitt. Tsch\u00fcsseldorf. R\u00fcssel.",
+        "prefix": null,
+        "suppress_blank": true,
+        "suppress_tokens": [
+          -1
+        ],
+        "without_timestamps": false,
+        "max_initial_timestamp": 1.0,
+        "word_timestamps": true,
+        "prepend_punctuations": "\"'\u201c\u00bf([{-",
+        "append_punctuations": "\"'.\u3002,\uff0c!\uff01?\uff1f:\uff1a\u201d)]}\u3001"
+      },
+      "vad_options": null
+    }
+  ]
+}

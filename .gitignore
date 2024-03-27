@@ -1,0 +1,17 @@
+.idea/
+/hack/
+/html/
+/website/node_modules/
+/website/dist/
+/website/src/html/
+/credentials.json
+.cache
+spodcast.json
+credentials.json
+/Gemischtes_Hack/
+venv399/
+audio_segs/
+.vscode/
+.env
+/website/src/app.js
+/website/src/app.js.map

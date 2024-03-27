@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Durchsuche alle Folgen Gemischtes Hack von Felix Lobrecht und Tommi Schmitt. Ein Fanprojekt von Hackis für Hackis.">
+    <title>Welche Folge? • Gemischtes Hack</title>
+    <link rel="icon" type="icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+</head>
+<body>
+<div class="container">
+    <h1>Gemischtes Hack Suche</h1>
+    <p class="description-text">Durchsuche alle Folgen Gemischtes Hack</p>
+    <form action="/" method="GET">
+        <input type="text" name="s" placeholder="Suchen..." value="<%= searched ? searched : '' %>" autofocus/>
+        <button type="submit" class="search-button">Suchen</button>
+    </form>
+
+    <% if(results.length > 0) { %>
+        <div class="results-count-box"><%= `'${searched}' wurde ${totalResultsCount} mal erwähnt.` %></div>
+    <% } %>
+
+    <div class="results-container">
+        <% if (results.length > 0) { %>
+            <form class="sort-form" action="/" method="GET">
+                <input type="hidden" name="s" value="<%= searched ? searched : '' %>"/>
+                <button name="sort" value="<%= sort === 'desc' ? 'asc' : 'desc' %>" class="sort-button">
+                    Sortieren <%= sort === 'desc' ? '↓' : '↑' %>
+                </button>
+            </form>
+
+            <% if (prevPage != null) { %>
+                <form action="/" method="GET">
+                    <input type="hidden" name="p" value="<%= prevPage %>"/>
+                    <input type="hidden" name="s" value="<%= searched %>"/>
+                    <input type="hidden" name="sort" value="<%= sort %>"/>
+                    <button type="submit" class="show-next-prev-page-button">Vorherige anzeigen</button>
+                </form>
+            <% } %>
+
+            <% results.forEach(function(result) { %>
+                <div class="result-box">
+                    <a href="/<%= `${result.path}?s=${searched}#${result.timestampSeconds}` %>"
+                       class="result-box-link">
+                        <div class="result-box-title"><%= result.name %></div>
+                        <div class="result-box-content">
+                            <%
+                                let content = result.match
+
+                                if (searched && searchRegex) {
+                                    // ignore case, ignore whitespace
+                                    content = content.replace(searchRegex, (match) => '<span class="highlight">' + match + '</span>')
+                                }
+                            %>
+                            <%- content %> (<%= result.timestamp %>)
+                        </div>
+                    </a>
+                </div>
+            <% }); %>
+
+            <% if (nextPage != null) { %>
+                <form action="/" method="GET">
+                    <input type="hidden" name="p" value="<%= nextPage %>"/>
+                    <input type="hidden" name="s" value="<%= searched %>"/>
+                    <input type="hidden" name="sort" value="<%= sort %>"/>
+                    <button type="submit" class="show-next-prev-page-button">Mehr anzeigen</button>
+                </form>
+            <% } %>
+        <% } else if(results.length === 0 && searched) { %>
+            <div class="no-results-found">Keine Treffer gefunden.</div>
+        <% } %>
+    </div>
+</div>
+</body>
+</html>

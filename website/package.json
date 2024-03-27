@@ -1,0 +1,32 @@
+{
+  "name": "welchefolgehack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "run": "ts-node src/app.ts",
+    "start": "tsc && npm run copyFiles && node dist/app.js",
+    "copyFiles": "copyfiles --error --up 1 src/static/favicon.ico src/**/* dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/helmet": "^11.1.1",
+    "@fastify/static": "^6.11.2",
+    "@fastify/view": "^8.2.0",
+    "@types/jsdom": "^21.1.6",
+    "cheerio": "^1.0.0-rc.12",
+    "ejs": "^3.1.9",
+    "escape-string-regexp": "^4.0.0",
+    "fastify": "^4.23.2",
+    "jsdom": "^21.1.2",
+    "pino-pretty": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "copyfiles": "^2.4.1",
+    "typescript": "^5.0.4"
+  }
+}

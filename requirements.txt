@@ -1,0 +1,6 @@
+simplejson
+faster-whisper
+python-dotenv
+transformers
+requests
+spotipy
