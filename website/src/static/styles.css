@@ -50,7 +50,6 @@ input[type="text"]::placeholder {
 }
 
 .result-box {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #2d2d2d;
@@ -163,14 +162,15 @@ button[type="submit"]:hover {
 }
 
 /* Mobile UI */
-@media only screen and (max-width: 768px) {
-    html, body {
-        font-size: 100%;
-    }
-
+@media only screen and (max-width: 1200px) {
     .container {
         padding-left: 1rem;
         padding-right: 1rem;
+        display: block;
+    }
+
+    html, body {
+        font-size: 110%;
     }
 
     form {
@@ -181,16 +181,25 @@ button[type="submit"]:hover {
 
     input[type="text"] {
         margin: 0 auto 0.5rem auto;
-        width: calc(100% - 2rem);
         box-sizing: border-box;
-    }
-
-    .results-container {
-        width: calc(100% - 2rem);
     }
 
     .sort-form {
         width: calc(100% - 2rem);
+        margin-left: auto;
+    }
+
+    .results-container {
+        display: block;
+        width: calc(100% - 2rem);
+    }
+
+    .result-box-title {
+        font-size: 1.2rem;
+    }
+
+    .result-box-content {
+        font-size: 1.1rem;
     }
 
     .result-box {
