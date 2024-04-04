@@ -2,7 +2,7 @@ import os
 
 
 def download_latest_episodes():
-    cmd = f"spodcast --log-level debug -c {os.getcwd()}/spodcast.json --rss-feed no --max-episodes 5 --root-path {os.getcwd()} --transcode yes https://open.spotify.com/show/7BTOsF2boKmlYr76BelijW"
+    cmd = f"spodcast --log-level debug -c {os.getcwd()}/spodcast.json --rss-feed no --max-episodes 1 --root-path {os.getcwd()} --transcode yes https://open.spotify.com/show/7BTOsF2boKmlYr76BelijW"
 
     print(cmd)
 
