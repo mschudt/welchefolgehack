@@ -41,11 +41,11 @@ def clean_for_match(input_string):
         if char.isalnum() or char in [" ", "-", "_", "."]:
             cleaned_string += char
 
-    return cleaned_string
+    return cleaned_string.strip()
 
 
 def html(name, result, episodes):
-    episode_name = " ".join(name.split("Gemischtes_Hack_-_")[1].split("_")[1:])
+    episode_name = " ".join(name.split("Gemischtes_Hack_-_")[1].split("_")[1:]).strip()
 
     episode_obj = next((e for e in episodes if clean_for_match(e["name"]).endswith(episode_name)), None)
 
