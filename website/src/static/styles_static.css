@@ -69,7 +69,8 @@ h1 {
 
 .content-text {
     font-size: 1rem;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
 }
 
 .highlight {
