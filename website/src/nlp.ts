@@ -1,27 +1,64 @@
 import * as natural from 'natural';
-import {episodes, sortMapByKey} from "./utils";
+import {episodes, filterAlphanumeric, sortMapByKey} from "./utils";
 import {Episode, SearchResult} from "./models";
+import Corpus from "./nlp/corpus";
+import Similarity from "./nlp/similarity";
 
 export class DocumentSearchEngine {
     private tfidf: natural.TfIdf
+    private corpus: any
+    private similarity: any
 
     constructor() {
         this.tfidf = new natural.TfIdf()
     }
 
+    async addEpisodes(episodes: Episode[]) {
+        const keys = []
+        const documents = []
 
+        for (const episode of episodes) {
 
-    addEpisode(episode: Episode) {
-        for (const segment of episode.segments) {
-            this.tfidf.addDocument(
-                segment.text,
-                {episodeId: episode.id, text: segment.text}
-            )
+            for (const segment of episode.segments) {
+                // this.tfidf.addDocument(
+                //     segment.text,
+                //     {episodeId: episode.id, text: segment.text}
+                // )
+
+                keys.push(`${episode.id}|${segment.text}`)
+                documents.push(segment.text)
+            }
+
         }
+
+        this.corpus = new Corpus(keys, documents);
+        this.similarity = new Similarity(this.corpus)
     }
 
     // TODO remove semicolons everywhere
     search(searchTerm: string): SearchResult[] {
+        if (!searchTerm || filterAlphanumeric(searchTerm).length === 0) {
+            return []
+        }
+
+        this.corpus.addDocument((Math.random() + 1).toString(36).substring(7), searchTerm);
+
+        const queryVector = this.corpus.getDocumentVector(searchTerm);
+
+
+        this.corpus.getDocumentIdentifiers().forEach((identifier: any) => {
+            if (identifier === searchTerm) {
+                return
+            }
+            const documentVector = this.corpus.getDocumentVector(identifier);
+
+            const similarityScore = Similarity.cosineSimilarity(queryVector, documentVector);
+
+            console.log(`Similarity between search query and ${identifier}: ${similarityScore}`);
+        });
+
+        return []
+
         let results: Map<string, any> = new Map();
 
         this.tfidf.tfidfs(searchTerm, (i: number, score: number, key: any) => {

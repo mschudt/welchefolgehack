@@ -67,15 +67,13 @@ export function parseEpisodes(directory: string): Episode[] {
     return episodes
 }
 
-function filterAlphanumeric(input: string): string {
+export function filterAlphanumeric(input: string): string {
     const pattern = /[^a-zA-Z0-9]/g
     return input.replace(pattern, '')
 }
 
 export function initSearchEngine() {
-    for (const episode of episodes) {
-        searchEngine.addEpisode(episode)
-    }
+    searchEngine.addEpisodes(episodes)
 }
 
 export function search(searched: string, sort: 'asc' | 'desc' = 'desc'): SearchResult[] {
