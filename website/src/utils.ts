@@ -4,8 +4,12 @@ import * as cheerio from "cheerio"
 import {Episode, SearchResult, TextSegment} from "./models"
 import escapeStringRegexp from "escape-string-regexp"
 import process from "node:process"
+import {DocumentSearchEngine} from "./nlp"
 
 export let episodes: Episode[] = []
+
+// Example usage
+export const searchEngine = new DocumentSearchEngine();
 
 export function parseEpisodes(directory: string): Episode[] {
     const fileNames: string[] = fs.readdirSync(directory)
@@ -15,6 +19,7 @@ export function parseEpisodes(directory: string): Episode[] {
         const data: string = fs.readFileSync(filePath, 'utf16le')
 
         const $ = cheerio.load(data)
+        const id: string = $('body').attr('id')
         const title: string = $('h1').text().trim()
         const segments: TextSegment[] = []
 
@@ -36,6 +41,7 @@ export function parseEpisodes(directory: string): Episode[] {
         const episodeUrl = $("h1").parent("a").attr("href")
 
         const episode: Episode = {
+            id,
             title,
             segments,
             url: episodeUrl,
@@ -64,6 +70,12 @@ export function parseEpisodes(directory: string): Episode[] {
 function filterAlphanumeric(input: string): string {
     const pattern = /[^a-zA-Z0-9]/g
     return input.replace(pattern, '')
+}
+
+export function initSearchEngine() {
+    for (const episode of episodes) {
+        searchEngine.addEpisode(episode)
+    }
 }
 
 export function search(searched: string, sort: 'asc' | 'desc' = 'desc'): SearchResult[] {
@@ -172,4 +184,11 @@ export function isRunningInTSNode() {
     } catch {
         return false
     }
+}
+
+export function sortMapByKey(map: Map<string, any>): Map<string, any> {
+    const sortedArray = Array.from(map.entries())
+        .sort((a, b) => a[0].localeCompare(b[0]));
+
+    return new Map<string, any>(sortedArray);
 }

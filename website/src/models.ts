@@ -14,6 +14,7 @@ export interface TextSegment {
 }
 
 export interface Episode {
+    id: string
     title: string
     url: string
     segments: TextSegment[]

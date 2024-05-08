@@ -12,6 +12,7 @@ import fastifyCors from "@fastify/cors"
 import {JSDOM} from "jsdom"
 import * as utils from "./utils"
 import {SearchQuery} from "./models"
+import {searchEngine} from "./utils";
 
 /*
 TODO next up:
@@ -144,7 +145,12 @@ function setupWorkerInstance(): void {
 
         const sort = req.query.sort ?? "desc"
 
-        const results = utils.search(searched, sort)
+        // const results = utils.search(searched, sort)
+
+        // TODO implement sort?
+        const results = searchEngine.search(searched);
+        // console.log(results);
+
         const paginatedResults = results.slice(offset, offset + resultsPerPage)
 
         if (utils.isRunningInTSNode()) {
@@ -219,6 +225,7 @@ function setupWorkerInstance(): void {
         console.log(`parsing html files`)
 
         utils.parseEpisodes(path.join(__dirname, "html"))
+        utils.initSearchEngine()
 
         console.log(`server listening on ${address}`)
     })
