@@ -12,7 +12,9 @@ import fastifyCors from "@fastify/cors"
 import {JSDOM} from "jsdom"
 import * as utils from "./utils"
 import {SearchQuery} from "./models"
-import {searchEngine} from "./utils";
+import {episodes} from "./utils"
+import {DocumentSearchEngine} from "./nlp"
+
 
 /*
 TODO next up:
@@ -128,9 +130,14 @@ function setupWorkerInstance(): void {
         }
     })
 
+
+// Static objects
+    const searchEngine = new DocumentSearchEngine();
+
+
 // Register actual routes below.
 
-    server.get<{ Querystring: SearchQuery }>("/", (req, reply) => {
+    server.get<{ Querystring: SearchQuery }>("/", async (req, reply) => {
         const resultsPerPage: number = 50
         const searched: string = req.query.s
         let page: number = req.query.p ? parseInt(req.query.p) : 1
@@ -148,7 +155,9 @@ function setupWorkerInstance(): void {
         // const results = utils.search(searched, sort)
 
         // TODO implement sort?
-        const results = searchEngine.search(searched);
+
+        const results = !searched ? [] : await searchEngine.search(searched);
+
         // console.log(results);
 
         const paginatedResults = results.slice(offset, offset + resultsPerPage)
@@ -225,7 +234,7 @@ function setupWorkerInstance(): void {
         console.log(`parsing html files`)
 
         utils.parseEpisodes(path.join(__dirname, "html"))
-        utils.initSearchEngine()
+        await searchEngine.initialise(episodes)
 
         console.log(`server listening on ${address}`)
     })

@@ -8,9 +8,6 @@ import {DocumentSearchEngine} from "./nlp"
 
 export let episodes: Episode[] = []
 
-// Example usage
-export const searchEngine = new DocumentSearchEngine();
-
 export function parseEpisodes(directory: string): Episode[] {
     const fileNames: string[] = fs.readdirSync(directory)
 
@@ -70,10 +67,6 @@ export function parseEpisodes(directory: string): Episode[] {
 export function filterAlphanumeric(input: string): string {
     const pattern = /[^a-zA-Z0-9]/g
     return input.replace(pattern, '')
-}
-
-export function initSearchEngine() {
-    searchEngine.addEpisodes(episodes)
 }
 
 export function search(searched: string, sort: 'asc' | 'desc' = 'desc'): SearchResult[] {
