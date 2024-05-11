@@ -179,7 +179,7 @@ export function isRunningInTSNode() {
 
 export function sortMapByKey(map: Map<string, any>): Map<string, any> {
     const sortedArray = Array.from(map.entries())
-        .sort((a, b) => a[0].localeCompare(b[0]));
+        .sort((a, b) => b[0].localeCompare(a[0]));
 
     return new Map<string, any>(sortedArray);
 }
