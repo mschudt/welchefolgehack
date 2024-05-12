@@ -17,3 +17,4 @@ audio_segs/
 .env
 /website/src/app.js
 /website/src/app.js.map
+/db.sqlite

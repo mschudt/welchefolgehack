@@ -1,3 +1,4 @@
+import re
 import datetime
 
 
@@ -14,6 +15,24 @@ def ts(seconds, with_millis=False):
         return timestamp
     else:
         return ".".join(timestamp.split(".")[:-1])
+
+
+def clean_str_for_path(string):
+    return re.sub(r"[^a-zA-Z0-9\-_./\\]", "", string)
+
+
+def clean_for_match(input_string):
+    umlaute_map = {
+        ord("ä"): "a", ord("ü"): "u", ord("ö"): "o", ord("Ä"): "A", ord("Ü"): "U", ord("Ö"): "O",
+        ord("ß"): "", ord("ẞ"): "", ord("?"): "", ord("!"): "", ord("'"): ""
+    }
+
+    cleaned_string = ""
+    for char in input_string.strip().translate(umlaute_map):
+        if char.isalnum() or char in [" ", "-", "_", "."]:
+            cleaned_string += char
+
+    return cleaned_string.strip()
 
 
 def clean(text):

@@ -17,6 +17,7 @@
     "@fastify/static": "^6.11.2",
     "@fastify/view": "^8.2.0",
     "@types/jsdom": "^21.1.6",
+    "better-sqlite3": "^10.0.0",
     "cheerio": "^1.0.0-rc.12",
     "ejs": "^3.1.10",
     "escape-string-regexp": "^4.0.0",

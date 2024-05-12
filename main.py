@@ -10,6 +10,7 @@ from faster_whisper import WhisperModel
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from dotenv import load_dotenv
+import db
 
 """
 TODO feature
@@ -200,7 +201,7 @@ def copy_rf(source, destination):
             shutil.copy2(source_item, destination_item)
 
 
-def load(write_html_files=True):
+def load(write=True):
     episodes = list(reversed(get_episodes_from_spotify_api()))
     # print(json.dumps(episodes, indent=2).encode().decode('unicode-escape'))
 
@@ -220,12 +221,33 @@ def load(write_html_files=True):
 
         results.append((filename_stem, result))
 
-    if write_html_files:
+    if write:
+        db.ensure_structure()
+
         for result_tuple in results:
-            stem = result_tuple[0]
+            name = result_tuple[0]
             result = result_tuple[1]
 
-            generate_html.html(stem, result, episodes)
+            episode_name = " ".join(name.split("Gemischtes_Hack_-_")[1].split("_")[1:]).strip()
+
+            episode_obj = next(
+                (e for e in episodes if clean_for_match(e["name"]).endswith(episode_name)),
+                None
+            )
+
+            if episode_obj is None:
+                print(f"> [!] could not find episode {episode_name} in episodes!")
+                return
+
+            episode_nr = name.split("Gemischtes_Hack_-_")[1].split("_")[0]
+            episode_name = episode_obj["name"]
+            episode_url = episode_obj["external_urls"]["spotify"]
+            url_path = episode_nr if "#" in episode_name else clean_str_for_path(episode_name.replace(" ", "_").lower())
+            segments = result["segments"]
+
+            generate_html.write_html_files(episode_nr, episode_name, episode_url, url_path, segments)
+
+            db.write_to_db(episode_nr, episode_name, episode_url, url_path, segments)
 
         print("done. copying files from html/ to website/src/html/ now...")
 

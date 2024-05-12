@@ -26,42 +26,11 @@ html_template = """
 """
 
 
-def clean_str_for_path(string):
-    return re.sub(r"[^a-zA-Z0-9\-_./\\]", "", string)
-
-
-def clean_for_match(input_string):
-    umlaute_map = {
-        ord("ä"): "a", ord("ü"): "u", ord("ö"): "o", ord("Ä"): "A", ord("Ü"): "U", ord("Ö"): "O",
-        ord("ß"): "", ord("ẞ"): "", ord("?"): "", ord("!"): "", ord("'"): ""
-    }
-
-    cleaned_string = ""
-    for char in input_string.strip().translate(umlaute_map):
-        if char.isalnum() or char in [" ", "-", "_", "."]:
-            cleaned_string += char
-
-    return cleaned_string.strip()
-
-
-def html(name, result, episodes):
-    episode_name = " ".join(name.split("Gemischtes_Hack_-_")[1].split("_")[1:]).strip()
-
-    episode_obj = next((e for e in episodes if clean_for_match(e["name"]).endswith(episode_name)), None)
-
-    if episode_obj is None:
-        print(f"> [!] could not find episode {episode_name} in episodes!")
-        return
-
-    episode_nr = name.split("Gemischtes_Hack_-_")[1].split("_")[0]
-    episode_name = episode_obj["name"]
-    episode_url = episode_obj["external_urls"]["spotify"]
-
+def write_html_files(episode_nr, episode_name, episode_url, url_path, segments):
     html_dir = "html/"
     os.makedirs(html_dir, exist_ok=True)
 
     items = []
-    segments = result["segments"]
     # convert faster-whisper format
     if isinstance(segments[0], list):
         segments = segments[0]
@@ -85,8 +54,6 @@ def html(name, result, episodes):
             </div>
         """
     html_page = html_template
-
-    url_path = episode_nr if "#" in episode_name else clean_str_for_path(episode_name.replace(" ", "_").lower())
 
     html_title = f"{episode_name}"
     html_heading = f"{episode_name}"
