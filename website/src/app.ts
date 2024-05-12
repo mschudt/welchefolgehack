@@ -12,6 +12,7 @@ import fastifyCors from "@fastify/cors"
 import {JSDOM} from "jsdom"
 import * as utils from "./utils"
 import {SearchQuery} from "./models"
+import {loadEpisodes} from "./db";
 
 /*
 TODO next up:
@@ -215,6 +216,9 @@ function setupWorkerInstance(): void {
         if (err) {
             throw err
         }
+
+        loadEpisodes()
+
 
         console.log(`parsing html files`)
 

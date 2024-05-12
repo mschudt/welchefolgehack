@@ -237,7 +237,7 @@ def load(write=True):
 
             if episode_obj is None:
                 print(f"> [!] could not find episode {episode_name} in episodes!")
-                return
+                continue
 
             episode_nr = name.split("Gemischtes_Hack_-_")[1].split("_")[0]
             episode_name = episode_obj["name"]

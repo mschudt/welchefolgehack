@@ -18,3 +18,5 @@ audio_segs/
 /website/src/app.js
 /website/src/app.js.map
 /db.sqlite
+/db.sqlite-shm
+/db.sqlite-wal

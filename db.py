@@ -1,9 +1,6 @@
 import sqlite3
-import os
-import json
 from util import *
 
-# Initialize DB connection
 conn = sqlite3.connect("db.sqlite")
 c = conn.cursor()
 
@@ -21,7 +18,7 @@ def ensure_structure():
 
 
 def insert_episode(episode_number, title, url, path):
-    c.execute("INSERT INTO episodes (episode_number, title, url, path) VALUES (?, ?, ?, ?)",
+    c.execute("INSERT OR IGNORE INTO episodes (episode_number, title, url, path) VALUES (?, ?, ?, ?)",
               (episode_number, title, url, path))
     conn.commit()
     return c.lastrowid
@@ -37,8 +34,8 @@ def write_to_db(episode_nr, episode_name, episode_url, url_path, segments):
         (
             episode_id,
             int(segment['start']),
-            ts(int(segment['start'])),  # Assuming ts() is defined elsewhere
-            clean(segment['text']),  # Assuming clean() is defined elsewhere
+            ts(int(segment['start'])),
+            clean(segment['text']),
         )
         for segment in segments
     ]
@@ -48,7 +45,7 @@ def write_to_db(episode_nr, episode_name, episode_url, url_path, segments):
 
 def insert_segments(segment_data):
     c.executemany(
-        "INSERT INTO segments (episode_id, start_seconds, timestamp, text) VALUES (?, ?, ?, ?)",
+        "INSERT OR IGNORE INTO segments (episode_id, start_seconds, timestamp, text) VALUES (?, ?, ?, ?)",
         segment_data
     )
     conn.commit()
