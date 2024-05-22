@@ -45,7 +45,7 @@ def faster_whisper_process(file_path, return_list):
     faster_model = WhisperModel(
         "large-v2",
         device="cuda",
-        compute_type="float16",
+        compute_type="float32",
         cpu_threads=6,
     )
 
