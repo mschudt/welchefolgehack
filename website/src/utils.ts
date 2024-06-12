@@ -7,7 +7,7 @@ import process from "node:process"
 
 export let episodes: Episode[] = []
 
-export function parseEpisodes(directory: string): Episode[] {
+export async function parseEpisodes(directory: string): Promise<Episode[]> {
     const fileNames: string[] = fs.readdirSync(directory)
 
     fileNames.forEach((fileName) => {
