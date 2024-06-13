@@ -180,13 +180,20 @@ function registerMiddleware(server: FastifyInstance): void {
     // Error handler.
     server.setErrorHandler((error, request, reply) => {
         console.error(error)
-        reply.view("error.ejs")
+
+        // Send back the 404 error page to not give away additional information.
+        reply
+            .code(404)
+            .view("error.ejs")
     })
 
-    // 404 error handler.
+    // 404 Not Found error handler.
     server.setNotFoundHandler((request, reply) => {
-            console.error(`404 Page not found: ${request}`)
-            reply.view("error.ejs")
+            console.error(`404 Page not found: ${request.url}`)
+
+            reply
+                .code(404)
+                .view("error.ejs")
         }
     )
 }
