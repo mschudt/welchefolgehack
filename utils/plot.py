@@ -26,6 +26,9 @@ df = pd.DataFrame({'timestamp': timestamps})
 df['date'] = df['timestamp'].dt.date
 request_counts_per_day = df.groupby('date').size()
 
+for count in request_counts_per_day:
+    print(count)
+    
 plt.figure(figsize=(10, 6))
 request_counts_per_day.plot(kind='bar')
 plt.xlabel('Date')
